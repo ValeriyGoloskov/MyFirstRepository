@@ -42,3 +42,24 @@ personalMovieDB.movies[a] = b;
 personalMovieDB.movies[c] = d;
 
 console.log(personalMovieDB);
+
+//Условия
+let number = 50;
+if (number < 49) {console.log('Error');}
+else if (number > 100) {cosole.log('Error1');}
+else {console.log('Ok');}
+//тирнарный оператор
+(number == 50) ? console.log('Ok') : console.log('Error');
+
+let number1 = 500
+switch (number1){
+  case 49: cosole.log('Неверно');
+  break;
+  case 51 : console.log('Опять неверно');
+  break;
+  case 50 : console.log('В точку!!!');
+  break;
+  default: console.log('Нет такого значения');
+  break;
+};
+
