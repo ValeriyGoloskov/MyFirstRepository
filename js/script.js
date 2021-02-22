@@ -63,3 +63,28 @@ switch (number1){
   break;
 };
 
+//Циклы
+let num = 50;
+while (num < 55) {
+    console.log(num);
+    num++; }
+
+//2
+let num2 = 50
+do{
+  console.log(num2);
+  num2++;
+
+}
+while (num2 < 55);
+//3
+
+let num3 = 50
+for(i = 1; i < 5; i++) {
+    console.log(num3);
+    num3++;
+}
+
+
+
+
