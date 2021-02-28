@@ -63,6 +63,7 @@ switch (number1){
   break;
 };
 
+
 //Циклы
 let num = 50;
 while (num < 55) {
