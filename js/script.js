@@ -91,6 +91,15 @@ for (i = 1; i < 5; i++) {
   num3++;
 }
 
+function GetSum(a, b){
+  console.log(a + b);
+}
+GetSum(4, 5);
+
+//Стрелочная функция
+const CalcMyFunction = (a, b) => a + b;
+console.log(CalcMyFunction(4, 5));
+
 /*
 new Promise((resolve, reject) => reject())
         .then(() => { throw new Error(2) })
